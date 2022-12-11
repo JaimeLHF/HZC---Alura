@@ -118,20 +118,20 @@ body {
     position: absolute;
     grid-column: 2;
     display: none;
-   
+
 
 }
 
 .listaInfos a {
     border: 1px dashed white;
-    padding: 12px;   
-    
+    padding: 12px;
+
 }
 
 .listaInfos--ativo {
-    display: flex;    
-    flex-direction: column;  
-    position: relative;  
+    display: flex;
+    flex-direction: column;
+    position: relative;
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.98);
     border-radius: 15px;
@@ -140,8 +140,8 @@ body {
     width: 235px;
     position: absolute;
     right: 100px;
-    top: 80px;   
-    box-sizing: border-box;   
+    top: 80px;
+    box-sizing: border-box;
     box-shadow: 0 5px 6px rgb(0 0 0 / 20%);
 }
 
@@ -161,7 +161,7 @@ body {
     cursor: pointer;
 }
 
-.instaLink::after{
+.instaLink::after {
     content: "@hansenjaime";
     font-size: 10px;
     display: grid;
@@ -185,8 +185,8 @@ body {
     background-position: center;
     margin-bottom: 10px;
     margin-left: auto;
-    margin-right: auto;   
-     
+    margin-right: auto;
+
 }
 
 .instaLink::before {
@@ -218,7 +218,7 @@ body {
     border-radius: 20%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -227,7 +227,7 @@ body {
 
 
 
-.gitLinkNav::before{
+.gitLinkNav::before {
     content: "";
     background-image: url('../img/github.png');
     display: block;
@@ -243,7 +243,8 @@ body {
 
 }
 
-.instaLinkNav::before{
+
+.instaLinkNav::before {
     content: "";
     background-image: url('../img/instagram\ \(1\).png');
     display: block;
@@ -259,7 +260,16 @@ body {
 
 }
 
-.youtubeLinkNav::before{
+.instagramID {
+    position: relative;
+    font-size: 10px;
+    top: 20px;
+    right: 75px;
+}
+
+
+
+.youtubeLinkNav::before {
     content: "";
     background-image: url('../img/youtube.png');
     display: block;
