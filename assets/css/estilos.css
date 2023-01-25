@@ -9,11 +9,20 @@ body {
     color: #ffffff;
 }
 
+.info {
+    display: none;
+}
+
 @media screen and (min-width: 1080px) {
     body {
         display: grid;
         grid-template-columns: auto 1fr;
     }
+    
+    .info {
+    display: block;
+    }
+    
 }
 
 .cabecalho {
